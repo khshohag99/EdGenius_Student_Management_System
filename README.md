@@ -23,3 +23,15 @@ EdGenius prides itself on its user-friendly interface and visually appealing des
 ![screencapture-127-0-0-1-8000-login-2023-09-15-19_38_08](https://github.com/khshohag99/Smart_Shop/assets/115762775/1a86006a-5bea-41f6-aafb-52671606fb7f)
 
 ![screencapture-127-0-0-1-8000-ihomepage-2023-09-15-19_19_21](https://github.com/khshohag99/Smart_Shop/assets/115762775/46ec772a-3143-48bd-bd9e-0bc5f69044dd)
+
+![screencapture-127-0-0-1-8000-python-for-beginners-2023-09-15-19_41_10](https://github.com/khshohag99/Smart_Shop/assets/115762775/0448b512-25c9-4fb9-8fe8-6b6978786021)
+
+![screencapture-127-0-0-1-8000-grades-provider-Data-Science-A-Z-2023-09-15-19_41_52](https://github.com/khshohag99/Smart_Shop/assets/115762775/1066ce81-ee6e-4950-8a3a-19b2cb446725)
+
+![screencapture-127-0-0-1-8000-add-course-2023-09-15-19_43_00](https://github.com/khshohag99/Smart_Shop/assets/115762775/0b9982c6-0358-4e5f-8715-554fd3306000)
+
+![screencapture-127-0-0-1-8000-shomepage-2023-09-15-19_16_02](https://github.com/khshohag99/Smart_Shop/assets/115762775/b277c315-f969-41ac-9e84-27a1a871890c)
+
+![screencapture-127-0-0-1-8000-python-for-beginners-student-2023-09-15-19_17_09](https://github.com/khshohag99/Smart_Shop/assets/115762775/36638b69-504f-489d-8a21-6584b1c9a37f)
+
+![screencapture-127-0-0-1-8000-view-my-grades-Python-for-Beginners-2023-09-15-19_18_01](https://github.com/khshohag99/Smart_Shop/assets/115762775/5c72d0c4-70f8-4fd2-864a-ed343c9ae1fd)

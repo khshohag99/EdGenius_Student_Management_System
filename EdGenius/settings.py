@@ -153,5 +153,5 @@ USE_TZ = False
 #=============================================Comment out the code here========================
 # Also make changes on the line 29
 import os
-STATICFILES_DIRS = os.path.join(BASE_DIR, 'static'),
+STATICFILES_DIRS = os.path.join(BASE_DIR, 'static/'),
 STATIC_ROOT = os.path.join(BASE_DIR,'staticfiles_build','static')

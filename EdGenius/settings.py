@@ -25,7 +25,9 @@ SECRET_KEY = "django-insecure-w_nbtlu0+3lc9lk+%+=#s4_nyhotjyvxm2h&ejl+&77*$j5_((
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['.vercel.app','.now.sh']
+#=============================================Change the code here========================
+# ALLOWED_HOSTS = []
 
 
 # Application definition
@@ -147,3 +149,9 @@ STRIPE_SECRET_KEY ='sk_test_51NXR7jIPmX6IhXQyUjNsAxEp9DLN1VaybqpEODFy2GHNCVxEV6N
 STRIPE_PUBLISHABLE_KEY ='pk_test_51NXR7jIPmX6IhXQyEtlDLcYhoLIVS45x3kwEtZzsszpTorglxHAyUFMScxZ50YCPZxmZj3yhdu447g8qVndL3Sfl00mwKWwpnf'
 
 USE_TZ = False
+
+#=============================================Comment out the code here========================
+# Also make changes on the line 29
+import os
+STATICFILES_DIRS = os.path.join(BASE_DIR, 'static'),
+STATIC_ROOT = os.path.join(BASE_DIR,'staticfiles_build','static')

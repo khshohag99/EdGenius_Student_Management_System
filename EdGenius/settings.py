@@ -25,9 +25,9 @@ SECRET_KEY = "django-insecure-w_nbtlu0+3lc9lk+%+=#s4_nyhotjyvxm2h&ejl+&77*$j5_((
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['.vercel.app','.now.sh']
+# ALLOWED_HOSTS = ['.vercel.app','.now.sh']
 #=============================================Change the code here========================
-# ALLOWED_HOSTS = []
+ALLOWED_HOSTS = []
 
 
 # Application definition
@@ -152,6 +152,6 @@ USE_TZ = False
 
 #=============================================Comment out the code here========================
 # Also make changes on the line 29
-import os
-STATICFILES_DIRS = os.path.join(BASE_DIR, 'static/'),
-STATIC_ROOT = os.path.join(BASE_DIR,'staticfiles_build','EdGeniusApp/static')
+# import os
+# STATICFILES_DIRS = os.path.join(BASE_DIR, 'static/'),
+# STATIC_ROOT = os.path.join(BASE_DIR,'staticfiles_build','EdGeniusApp/static')

@@ -121,7 +121,7 @@ class InstructorHomeView(LoginRequiredMixin, TemplateView):
 
 
 class LogoutInterfaceView(LoginRequiredMixin, LogoutView):
-    template_name = 'EdGeniusApp/logout.html'
+    template_name = 'EdGeniusApp/index.html'
 
 
 class AuthorizedView(LoginRequiredMixin, TemplateView):

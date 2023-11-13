@@ -28,7 +28,7 @@ DEBUG = True
 # ALLOWED_HOSTS = ['.vercel.app','.now.sh']
 #=============================================Change the code here========================
 # ALLOWED_HOSTS = []
-ALLOWED_HOSTS = ['.vercel.app']
+ALLOWED_HOSTS = ['.vercel.app','.now.sh','127.0.0.1','localhost']
 
 
 # Application definition
@@ -56,9 +56,10 @@ MIDDLEWARE = [
 ]
 
 STATIC_URL = '/static/'
-STATICFILES_DIRS = [
-    BASE_DIR / 'EdGeniusApp/static',
-]
+#==========================Uncomment this=======================
+# STATICFILES_DIRS = [
+#     BASE_DIR / 'EdGeniusApp/static',
+# ]
 
 ROOT_URLCONF = "EdGenius.urls"
 
@@ -85,10 +86,20 @@ WSGI_APPLICATION = "EdGenius.wsgi.application"
 # Database
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
 
+# DATABASES = {
+#     "default": {
+#         "ENGINE": "django.db.backends.sqlite3",
+#         "NAME": BASE_DIR / "db.sqlite3",
+#     }
+# }
 DATABASES = {
     "default": {
-        "ENGINE": "django.db.backends.sqlite3",
-        "NAME": BASE_DIR / "db.sqlite3",
+        "ENGINE": "django.db.backends.postgresql",
+        "NAME": 'railway',
+        "USER": 'postgres',
+        "PASSWORD": '-4--baceFGgFC54BgfGAAaCeF-d2d5E3',
+        "HOST": 'viaduct.proxy.rlwy.net',
+        "PORT": '24587',
     }
 }
 
@@ -153,6 +164,12 @@ USE_TZ = False
 
 #=============================================Comment out the code here========================
 # Also make changes on the line 29
-# import os
-# STATICFILES_DIRS = os.path.join(BASE_DIR, 'static/'),
-# STATIC_ROOT = os.path.join(BASE_DIR,'staticfiles_build','EdGeniusApp/static')
+import os
+STATICFILES_DIRS = [
+    os.path.join(BASE_DIR, 'EdGeniusApp/static'),
+    # Add other directories if needed
+]
+
+
+# Configure STATIC_ROOT
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles_build', 'EdGeniusApp/static') 

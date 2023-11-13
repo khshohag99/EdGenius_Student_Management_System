@@ -38,4 +38,7 @@ urlpatterns = [
     path('<slug:course_slug>/', views.CourseDetailView.as_view(), name='course_detail'),
     path('<slug:course_slug>/student', views.CourseDetailViewStudent.as_view(),
                        name='course_detailStudent'),
-] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+] #+ static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)

@@ -91,6 +91,8 @@ WSGI_APPLICATION = "EdGenius.wsgi.application"
 #         "NAME": BASE_DIR / "db.sqlite3",
 #     }
 # }
+
+#=============================================Comment out the code here========================
 DATABASES = {
     "default": {
         "ENGINE": "django.db.backends.postgresql",

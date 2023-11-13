@@ -16,7 +16,6 @@ from django.shortcuts import redirect
 from .forms import SignUpForm, CoursesForm
 from .models import NewUser, Student, Courses, Attendance, Grades, CourseEnrolled
 from django.core.exceptions import ValidationError
-import razorpay
 from EdGenius import settings
 import stripe
 from django.contrib.auth.models import User, Group
